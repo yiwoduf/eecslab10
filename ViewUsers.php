@@ -8,7 +8,7 @@
 
     $query = "SELECT user_id from Users";
     $result = $mysqli->query($query);
-
+    echo "<body>";
     echo "<table style='border: 1px solid black, width: 100%'>";
     echo "<tr>";
     echo "<td style='border: 1px solid black'>" . "USERS:" . "</td>";
@@ -21,6 +21,7 @@
         }
     }
     echo "</table>";
+    echo "</body>"
 
     $mysqli->close();
 ?>
