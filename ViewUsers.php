@@ -1,3 +1,4 @@
+<style> <?php include '/style.css'; ?> </style>
 <?php
     $mysqli = new mysqli("mysql.eecs.ku.edu", "s661a552", "ohz3heet", "s661a552");
     if ($mysqli->connect_error){
