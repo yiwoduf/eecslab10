@@ -21,7 +21,7 @@
         }
     }
     echo "</table>";
-    echo "</body>"
+    echo "</body>";
 
     $mysqli->close();
 ?>
